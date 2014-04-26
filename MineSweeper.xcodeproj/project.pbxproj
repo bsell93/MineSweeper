@@ -21,6 +21,18 @@
 		B561C913190B1CA700F8A9E8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B561C8F5190B1CA700F8A9E8 /* UIKit.framework */; };
 		B561C91B190B1CA700F8A9E8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B561C919190B1CA700F8A9E8 /* InfoPlist.strings */; };
 		B561C91D190B1CA700F8A9E8 /* MineSweeperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B561C91C190B1CA700F8A9E8 /* MineSweeperTests.m */; };
+		B561C944190B1DE800F8A9E8 /* flag.png in Resources */ = {isa = PBXBuildFile; fileRef = B561C93A190B1DE800F8A9E8 /* flag.png */; };
+		B561C945190B1DE800F8A9E8 /* mine.png in Resources */ = {isa = PBXBuildFile; fileRef = B561C93B190B1DE800F8A9E8 /* mine.png */; };
+		B561C946190B1DE800F8A9E8 /* minesweeper_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B561C93C190B1DE800F8A9E8 /* minesweeper_icon.png */; };
+		B561C947190B1DE800F8A9E8 /* minesweeper_title.png in Resources */ = {isa = PBXBuildFile; fileRef = B561C93D190B1DE800F8A9E8 /* minesweeper_title.png */; };
+		B561C948190B1DE800F8A9E8 /* num1.png in Resources */ = {isa = PBXBuildFile; fileRef = B561C93E190B1DE800F8A9E8 /* num1.png */; };
+		B561C949190B1DE800F8A9E8 /* num2.png in Resources */ = {isa = PBXBuildFile; fileRef = B561C93F190B1DE800F8A9E8 /* num2.png */; };
+		B561C94A190B1DE800F8A9E8 /* num3.png in Resources */ = {isa = PBXBuildFile; fileRef = B561C940190B1DE800F8A9E8 /* num3.png */; };
+		B561C94B190B1DE800F8A9E8 /* num4.png in Resources */ = {isa = PBXBuildFile; fileRef = B561C941190B1DE800F8A9E8 /* num4.png */; };
+		B561C94C190B1DE800F8A9E8 /* num5.png in Resources */ = {isa = PBXBuildFile; fileRef = B561C942190B1DE800F8A9E8 /* num5.png */; };
+		B561C94D190B1DE800F8A9E8 /* square.png in Resources */ = {isa = PBXBuildFile; fileRef = B561C943190B1DE800F8A9E8 /* square.png */; };
+		B561C953190B30F700F8A9E8 /* ImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B561C952190B30F700F8A9E8 /* ImageCell.m */; };
+		B561C958190B3E8600F8A9E8 /* TileModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B561C957190B3E8600F8A9E8 /* TileModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +65,20 @@
 		B561C918190B1CA700F8A9E8 /* MineSweeperTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MineSweeperTests-Info.plist"; sourceTree = "<group>"; };
 		B561C91A190B1CA700F8A9E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B561C91C190B1CA700F8A9E8 /* MineSweeperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineSweeperTests.m; sourceTree = "<group>"; };
+		B561C93A190B1DE800F8A9E8 /* flag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flag.png; sourceTree = "<group>"; };
+		B561C93B190B1DE800F8A9E8 /* mine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mine.png; sourceTree = "<group>"; };
+		B561C93C190B1DE800F8A9E8 /* minesweeper_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = minesweeper_icon.png; sourceTree = "<group>"; };
+		B561C93D190B1DE800F8A9E8 /* minesweeper_title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = minesweeper_title.png; sourceTree = "<group>"; };
+		B561C93E190B1DE800F8A9E8 /* num1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = num1.png; sourceTree = "<group>"; };
+		B561C93F190B1DE800F8A9E8 /* num2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = num2.png; sourceTree = "<group>"; };
+		B561C940190B1DE800F8A9E8 /* num3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = num3.png; sourceTree = "<group>"; };
+		B561C941190B1DE800F8A9E8 /* num4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = num4.png; sourceTree = "<group>"; };
+		B561C942190B1DE800F8A9E8 /* num5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = num5.png; sourceTree = "<group>"; };
+		B561C943190B1DE800F8A9E8 /* square.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = square.png; sourceTree = "<group>"; };
+		B561C951190B30F700F8A9E8 /* ImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCell.h; sourceTree = "<group>"; };
+		B561C952190B30F700F8A9E8 /* ImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCell.m; sourceTree = "<group>"; };
+		B561C956190B3E8600F8A9E8 /* TileModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TileModel.h; sourceTree = "<group>"; };
+		B561C957190B3E8600F8A9E8 /* TileModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TileModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,7 +143,12 @@
 				B561C903190B1CA700F8A9E8 /* Main.storyboard */,
 				B561C906190B1CA700F8A9E8 /* ViewController.h */,
 				B561C907190B1CA700F8A9E8 /* ViewController.m */,
+				B561C951190B30F700F8A9E8 /* ImageCell.h */,
+				B561C952190B30F700F8A9E8 /* ImageCell.m */,
+				B561C956190B3E8600F8A9E8 /* TileModel.h */,
+				B561C957190B3E8600F8A9E8 /* TileModel.m */,
 				B561C909190B1CA700F8A9E8 /* Images.xcassets */,
+				B561C94E190B1DF700F8A9E8 /* Images */,
 				B561C8F8190B1CA700F8A9E8 /* Supporting Files */,
 			);
 			path = MineSweeper;
@@ -150,6 +181,23 @@
 				B561C919190B1CA700F8A9E8 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B561C94E190B1DF700F8A9E8 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				B561C93A190B1DE800F8A9E8 /* flag.png */,
+				B561C93B190B1DE800F8A9E8 /* mine.png */,
+				B561C93C190B1DE800F8A9E8 /* minesweeper_icon.png */,
+				B561C93D190B1DE800F8A9E8 /* minesweeper_title.png */,
+				B561C93E190B1DE800F8A9E8 /* num1.png */,
+				B561C93F190B1DE800F8A9E8 /* num2.png */,
+				B561C940190B1DE800F8A9E8 /* num3.png */,
+				B561C941190B1DE800F8A9E8 /* num4.png */,
+				B561C942190B1DE800F8A9E8 /* num5.png */,
+				B561C943190B1DE800F8A9E8 /* square.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,6 +276,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				B561C90A190B1CA700F8A9E8 /* Images.xcassets in Resources */,
+				B561C946190B1DE800F8A9E8 /* minesweeper_icon.png in Resources */,
+				B561C949190B1DE800F8A9E8 /* num2.png in Resources */,
+				B561C947190B1DE800F8A9E8 /* minesweeper_title.png in Resources */,
+				B561C945190B1DE800F8A9E8 /* mine.png in Resources */,
+				B561C94B190B1DE800F8A9E8 /* num4.png in Resources */,
+				B561C948190B1DE800F8A9E8 /* num1.png in Resources */,
+				B561C94A190B1DE800F8A9E8 /* num3.png in Resources */,
+				B561C94D190B1DE800F8A9E8 /* square.png in Resources */,
+				B561C94C190B1DE800F8A9E8 /* num5.png in Resources */,
+				B561C944190B1DE800F8A9E8 /* flag.png in Resources */,
 				B561C8FC190B1CA700F8A9E8 /* InfoPlist.strings in Resources */,
 				B561C905190B1CA700F8A9E8 /* Main.storyboard in Resources */,
 			);
@@ -249,6 +307,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B561C908190B1CA700F8A9E8 /* ViewController.m in Sources */,
+				B561C958190B3E8600F8A9E8 /* TileModel.m in Sources */,
+				B561C953190B30F700F8A9E8 /* ImageCell.m in Sources */,
 				B561C902190B1CA700F8A9E8 /* AppDelegate.m in Sources */,
 				B561C8FE190B1CA700F8A9E8 /* main.m in Sources */,
 			);
@@ -378,6 +438,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MineSweeper/MineSweeper-Prefix.pch";
 				INFOPLIST_FILE = "MineSweeper/MineSweeper-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -391,6 +452,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MineSweeper/MineSweeper-Prefix.pch";
 				INFOPLIST_FILE = "MineSweeper/MineSweeper-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

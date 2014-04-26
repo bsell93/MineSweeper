@@ -35,6 +35,14 @@
 
 - (void)applicationDidBecomeActive:(UIApplication *)application
 {
+    #define SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(v)  ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedAscending)
+    
+    if (SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(@"7.0"))
+    {
+        UIView *view=[[UIView alloc] initWithFrame:CGRectMake(0, 0,320, 20)];
+        view.backgroundColor=[UIColor blackColor];
+        [self.window.rootViewController.view addSubview:view];
+    }
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
 }
 
